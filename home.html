@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+
+  <header class="main-header">
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="home.html" class="nav-item active" target="_blank">Home</a></li>
+        <li><a href="about.html" class="nav-item" target="_blank">About</a></li>
+        <li><a href="contact.html" class="nav-item" target="_blank">Contact</a></li>
+      </ul>
+      <div class="logo">POWER RANGER</div>
+    </nav>
+  </header>
+  <main class="hero-container">
+    
+    <div class="hero-text-side">
+      <h1 class="hero-title">
+        EXPLORE THE<br>
+        CAR OF YOUR<br>
+        <span class="outline-text">DREAMS</span>
+      </h1>
+      <p class="hero-subtitle">Unmatched performance. Ultimate luxury.</p>
+    </div>
+
+    <div class="hero-card-side">
+      <div class="filter-card">
+        <h2 class="card-title">Select Manufacturer</h2>
+        <div class="select-wrapper">
+          <select name="car-models" id="car-models" class="filter-select">
+            <option value="" disabled selected>Select</option>
+            <option value="porsche">Porsche</option>
+            <option value="lamborghini">Lamborghini</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="bmw">BMW</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <section class="fleet-section">
+    <h3 class="fleet-title">Instock</h3>
+    <div class="all-cars-grid">
+
+      <div class="car-card porsche">
+        <div class="car-image-wrapper">
+          <img src="Asset/porsche-911-gt3-rs-2022-7296_23.jpg" alt="Porsche 911 GT3 RS" class="car-img">
+        </div>
+        <div class="car-info">
+          <span class="brand-badge">Porsche</span>
+          <h4>911 GT3 RS</h4>
+          <p>Naturally Aspirated Flat-6 | 518 HP</p>
+          <button class="btn-view">View Details</button>
+        </div>
+      </div>
+
+      <div class="car-card porsche">
+        <div class="car-image-wrapper">
+          <img src="Asset/05-2025-porsche-718-cayman-gts-4-0.webp" alt="Porsche Cayman GT4 RS" class="car-img">
+        </div>
+        <div class="car-info">
+          <span class="brand-badge">Porsche</span>
+          <h4>718 Cayman GT4 RS</h4>
+          <p>Mid-Engine Flat-6 | 493 HP</p>
+          <button class="btn-view">View Details</button>
+        </div>
+      </div>
+
+      <div class="car-card porsche">
+        <div class="car-image-wrapper">
+          <img src="Asset/Porsche-Taycan-02.webp" alt="Porsche Taycan Turbo S" class="car-img">
+        </div>
+        <div class="car-info">
+          <span class="brand-badge">Porsche</span>
+          <h4>Taycan Turbo S</h4>
+          <p>Dual Electric Motor | 750 HP</p>
+          <button class="btn-view">View Details</button>
+        </div>
+      </div>
+
+      <div class="car-card lamborghini">
+        <div class="car-image-wrapper">
+          <img src="/Asset/2020-lamborghini-aventador-svj-63.jpg" alt="Lamborghini Aventador SVJ" class="car-img">
+        </div>
+        <div class="car-info">
+          <span class="brand-badge">Lamborghini</span>
+          <h4>Aventador SVJ</h4>
+          <p>V12 Engine | 770 HP</p>
+          <button class="btn-view">View Details</button>
+        </div>
+      </div>
+
+      <div class="car-card lamborghini">
+        <div class="car-image-wrapper">
+          <img src="Asset/1a1aala1.webp" alt="Lamborghini Huracán Evo" class="car-img">
+        </div>
+        <div class="car-info">
+          <span class="brand-badge">Lamborghini</span>
+          <h4>Huracán Evo</h4>
+          <p>V10 Engine | 640 HP</p>
+          <button class="btn-view">View Details</button>
+        </div>
+      </div>
+
+      <div class="car-card lamborghini">
+        <div class="car-image-wrapper">
+          <img src="Asset/170911244065defc782c304_0s2a5834.jpg" alt="Lamborghini Urus Performante" class="car-img">
+        </div>
+        <div class="car-info">
+          <span class="brand-badge">Lamborghini</span>
+          <h4>Urus Performante</h4>
+          <p>Twin-Turbo V8 | 666 HP</p>
+          <button class="btn-view">View Details</button>
+        </div>
+      </div>
+
+      <div class="car-card mercedes">
+        <div class="car-image-wrapper">
+          <img src="/Asset/images.jpg" alt="Mercedes-AMG GT Black Series" class="car-img">
+        </div>
+        <div class="car-info">
+          <span class="brand-badge">Mercedes-Benz</span>
+          <h4>AMG GT Black Series</h4>
+          <p>Biturbo V8 | 720 HP</p>
+          <button class="btn-view">View Details</button>
+        </div>
+      </div>
+
+      <div class="car-card mercedes">
+        <div class="car-image-wrapper">
+          <img src="/Asset/0d5526ab63a860c4187c4a2ec896bf46.jpg" alt="Mercedes-Benz G 63 AMG" class="car-img">
+        </div>
+        <div class="car-info">
+          <span class="brand-badge">Mercedes-Benz</span>
+          <h4>G 63 AMG Wagon</h4>
+          <p>Twin-Turbo V8 | 577 HP</p>
+          <button class="btn-view">View Details</button>
+        </div>
+      </div>
+
+      <div class="car-card mercedes">
+        <div class="car-image-wrapper">
+          <img src="/Asset/3z8Q0a4B-mzb8sxR67b-(edit).jpg" alt="Mercedes-AMG C 63 S" class="car-img">
+        </div>
+        <div class="car-info">
+          <span class="brand-badge">Mercedes-Benz</span>
+          <h4>AMG C 63 S</h4>
+          <p>Turbo Hybrid I4 | 671 HP</p>
+          <button class="btn-view">View Details</button>
+        </div>
+      </div>
+
+      <div class="car-card bmw">
+        <div class="car-image-wrapper">
+          <img src="/Asset/bmw-m-magazine-m4-csl-g82-01-16x9-alt-st.avif" alt="BMW M4 CSL" class="car-img">
+        </div>
+        <div class="car-info">
+          <span class="brand-badge">BMW</span>
+          <h4>M4 CSL</h4>
+          <p>TwinPower Turbo I6 | 543 HP</p>
+          <button class="btn-view">View Details</button>
+        </div>
+      </div>
+
+      <div class="car-card bmw">
+        <div class="car-image-wrapper">
+          <img src="/Asset/BMW-M5-F90-by-Manhart-19-scaled.jpg" alt="BMW M5 Competition" class="car-img">
+        </div>
+        <div class="car-info">
+          <span class="brand-badge">BMW</span>
+          <h4>M5 Competition</h4>
+          <p>Twin-Turbo V8 | 617 HP</p>
+          <button class="btn-view">View Details</button>
+        </div>
+      </div>
+
+      <div class="car-card bmw">
+        <div class="car-image-wrapper">
+          <img src="/Asset/2020_bmw_m8-competition_dsc08479-95434.webp" alt="BMW M8 Competition" class="car-img">
+        </div>
+        <div class="car-info">
+          <span class="brand-badge">BMW</span>
+          <h4>M8 Competition</h4>
+          <p>Twin-Turbo V8 | 617 HP</p>
+          <button class="btn-view">View Details</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+   <footer class="about-footer">
+      <h3 class="under">MADE BY POWER RANGER</h3>
+      <h3 class="under">Telegram: 0967481253</h3>
+      <h3 class="under">POWER RANGER 2026</h3>
+      <div class="footer-socials">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </footer>
+
+</body>
+</html>
